@@ -1,0 +1,58 @@
+// Layout styles
+nav {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  .nav-container {
+    @include container;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  a {
+    color: $text-color;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    @include transition;
+
+    &:hover {
+      color: $primary-color;
+      background-color: rgba($primary-color, 0.1);
+    }
+
+    &.current {
+      color: $primary-color;
+      font-weight: 600;
+    }
+  }
+}
+
+main {
+  @include container;
+  padding-bottom: 4rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  
+  p {
+    @include container;
+    text-align: center;
+    color: $secondary-color;
+    margin: 0;
+  }
+}
