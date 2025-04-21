@@ -6,7 +6,7 @@ description: A beautiful Jekyll site
 # For a project page, use:
 # baseurl: "/repository-name"
 # For a user/organization page, use:
-baseurl: ""
+baseurl: "/owl-tek"
 
 # Update this with your GitHub username
 url: "https://kizzlah.github.io"
