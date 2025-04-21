@@ -9,7 +9,7 @@ description: A beautiful Jekyll site
 baseurl: ""
 
 # Update this with your GitHub username
-url: "https://USERNAME.github.io"
+url: "https://kizzlah.github.io"
 
 # Build settings
 markdown: kramdown
